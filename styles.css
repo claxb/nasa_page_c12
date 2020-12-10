@@ -9,14 +9,16 @@ header {
   background-image: url(https://cdn.pixabay.com/photo/2019/11/23/22/43/mars-4648224_1280.jpg);
   height: 450px;
   width: auto;
-  color: aliceblue;
+  font-family: 'Strait', sans-serif;
+  border: 6px solid cornsilk;
 }
 
 main {
+  font-family: 'Strait', sans-serif;
   display: flex;
-  margin: 10px 0 0 0;
+  margin: 0 0 0 0;
   padding: 10px 0 10px 0;
-  padding: auto;
+  border: 6px solid cornsilk;
   height:324px;
   width: auto;
   flex-direction: row;
@@ -29,17 +31,79 @@ background: linear-gradient(to right, #94716B, #B79891); /* W3C, IE 10+/ Edge, F
 
 
 h3 {
-  flex-direction: column;
-  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  color: cornsilk;
   font-size: 30px;
   font-weight: 800;
   margin-block-end: 0.6em;
 }
 
 p {
-  color: #020202;
+  color: cornsilk;
   font-weight: 200;
   font-size: 20px;
   margin-block-start: 0.2em;
   margin-block-end: 0.2em;
+}
+
+a[href*="twitter.com/"] {
+  background:url(https://twitter.com/favicon.ico) no-repeat left center;
+  padding-left:19px;
+  }
+
+  a[href*="facebook.com/"] {
+    background:url(https://www.facebook.com/favicon.ico) no-repeat left center;
+    padding-left:19px;
+    } 
+
+    a[href*="instagram.com/"] {
+      background:url(https://www.instagram.com/favicon.ico) no-repeat left center;
+      padding-left:35px;
+      }  
+
+      a[href*="youtube.com/"] {
+        background:url(https://www.youtube.com/favicon.ico) no-repeat left center;
+        padding-left:19px;
+        }  
+
+        a[href*="google.com/"] {
+          background:url(https://www.google.com/favicon.ico) no-repeat left center;
+          padding-left:35px;  
+        }
+h1 {
+  font-size: 240px;
+  color: cornsilk;
+}        
+
+textarea {
+  resize: none;
+  border: none;
+  width: 300px;
+}
+
+input {
+  display: block;
+  border: none;
+}
+
+label {
+  color: cornsilk;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.btn-submit {
+  background: #362222;
+  padding: 7px 20px;
+  color: white;
+  border: none;
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.input-name {
+  width: 300px;
+  height: 30px;
 }
