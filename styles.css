@@ -80,11 +80,15 @@ textarea {
   resize: none;
   border: none;
   width: 300px;
+  font-family: 'Strait', sans-serif;
+
 }
 
 input {
   display: block;
   border: none;
+  font-family: 'Strait', sans-serif;
+
 }
 
 label {
