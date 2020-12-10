@@ -6,7 +6,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(https://cdn.pixabay.com/photo/2017/06/16/09/55/abstract-2408490_1280.jpg);
+  background-image: url(https://cdn.pixabay.com/photo/2019/11/23/22/43/mars-4648224_1280.jpg);
   height: 450px;
   width: auto;
   color: aliceblue;
@@ -14,17 +14,18 @@ header {
 
 main {
   display: flex;
+  margin: 10px 0 0 0;
   padding: 10px 0 10px 0;
   padding: auto;
   height:324px;
   width: auto;
   flex-direction: row;
   justify-content: space-around;
-  background: rgb(35,36,0);
-  
-background: rgb(35,36,0);
-background: rgb(35,36,0);
-background: linear-gradient(90deg, rgba(35,36,0,1) 0%, rgba(120,9,121,0.8716620437237395) 11%, rgba(117,255,0,0.8212418756565126) 100%);}
+  background: #B79891;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #94716B, #B79891);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #94716B, #B79891); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
 
 
 h3 {
