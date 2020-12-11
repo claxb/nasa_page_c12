@@ -81,6 +81,7 @@ textarea {
   border: none;
   width: 300px;
   font-family: 'Strait', sans-serif;
+  border-radius: 5px;
 
 }
 
@@ -88,6 +89,7 @@ input {
   display: block;
   border: none;
   font-family: 'Strait', sans-serif;
+  border-radius: 5px;
 
 }
 
