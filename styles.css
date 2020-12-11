@@ -115,3 +115,7 @@ label {
 a {
   color: cornsilk;
 }
+
+a:hover {
+  background-color:darkgray;
+}
