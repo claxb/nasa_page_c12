@@ -118,4 +118,5 @@ a {
 
 a:hover {
   background-color:darkgray;
+  border-radius: 5px;
 }
